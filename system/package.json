@@ -1,7 +1,7 @@
 {
   "name": "system",
   "version": "0.0.0",
-  "description": "Node.js application server with clear architecture powered by Fastify, Prisma ORM, Redis and PostgreSQL",
+  "description": "Node.js application server with clean architecture powered by Fastify, Prisma ORM, Redis and PostgreSQL",
   "main": "main.js",
   "scripts": {
     "start": "./scripts/production",

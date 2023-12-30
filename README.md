@@ -3,7 +3,7 @@
 Project is meticulously designed and implemented following the principles of Clean Architecture, ensuring a robust and maintainable codebase. Clean Architecture (Layered Architecture), emphasizes the separation of concerns and the independence of the application's core business logic from external frameworks and delivery mechanisms.
 
 ### Powered by:
-- [Node,js](https://nodejs.org/)
+- [Node.js](https://nodejs.org/)
 - [Fastify](https://fastify.io/)
 - [Prisma](https://www.prisma.io/)
 - [PostgreSQL](https://www.postgresql.org/)

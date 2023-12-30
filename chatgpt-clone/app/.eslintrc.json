@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2022
+  },
+  "rules": {
+    "strict": [
+      "error",
+      "never"
+    ]
+  }
+}

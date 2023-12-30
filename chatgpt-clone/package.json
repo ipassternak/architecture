@@ -1,0 +1,25 @@
+{
+  "name": "chatgpt-clone",
+  "version": "0.0.0",
+  "description": "ChatGPT clone with OpenAI API. For educational purposes only.",
+  "scripts": {
+    "migrate": "npx prisma migrate dev"
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "api"
+  ],
+  "author": "Ivan Pasternak <retriumpf@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^5.6.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "openai": "^4.24.1"
+  },
+  "prisma": {
+    "schema": "./app/db/schema.prisma"
+  }
+}

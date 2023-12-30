@@ -1,0 +1,7 @@
+#!/bin/bash
+(
+  export $(grep -v '^#' .env | xargs)
+  app_path=${APP_PATH//\"}
+  export $(grep -v '^#' $app_path/.env | xargs)
+  node main.js
+)
